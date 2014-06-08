@@ -1,0 +1,25 @@
+try
+{
+   //Abrir el fichero indicado en la variable nombreFichero
+   FileReader fr = new FileReader("prueba.txt");
+   //Leer el primer carácter
+   //Se debe almacenar en una variable de tipo int
+   int caract = fr.read();
+   //Se recorre el fichero hasta encontrar el carácter -1
+   //   que marca el final del fichero
+   String lexema="";
+   while(caract != -1)
+   {
+       //Mostrar en pantalla el carácter leído convertido a char
+       System.out.print((char)caract);
+       //Leer el siguiente carácter
+       caract = fr.read();
+       switch :
+   }
+   //Cerrar el fichero
+   fr.close();
+}
+catch (Exception e)
+{
+   //Error de lectura del fichero");
+}

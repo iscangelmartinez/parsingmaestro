@@ -1,0 +1,48 @@
+ import java.util.lang.*;
+ if (index=10)
+ {
+  System.out.println("JOlines he ganado");
+  }
+  9-90
+  
+  
+  git
+  sirve para programar en grupó versiones y y subversiones
+  mercurial
+  creacion de ramas
+  
+  la gran diferencia es que git permite manejar ramas
+  sudo apt-get install git-core
+  
+  git config --global user.name "Javier Olan"
+  git config -- global user.email "jolan@yellowme.mx"
+  git config --global push.default "simple"   git config -- global core.editor "editor"
+  
+  Iniciar un git
+  
+  3 configuraciones principales
+  
+  1.-permite que usuario usara git
+  2.-identificadores
+  3.- 
+  4.- introduccion de cierta informacion de texto, poner un editor de texto que usemos
+  
+  git init
+  git status
+  git add .
+  git  commit -m "primer commit" guardar los cambios
+  git commit
+  
+  ignore file
+  
+  ligas de intewres
+  http://git-scm.commit
+  http://gitref.org
+  codeshool.com
+  github
+  trygit
+
+  cheat.errtheblog.com/s/git
+  
+  
+  
